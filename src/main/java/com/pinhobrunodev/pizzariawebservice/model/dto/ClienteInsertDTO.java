@@ -11,6 +11,9 @@ public class ClienteInsertDTO {
     private String endereco;
     private Long pedidoId;
 
+
+    public ClienteInsertDTO(){}
+
     public ClienteInsertDTO(Cliente entity) {
         nome = entity.getNome();
         telefone = entity.getTelefone();
